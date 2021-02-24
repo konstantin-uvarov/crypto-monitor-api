@@ -6,7 +6,8 @@
   "author": "nivco@google.com",
   "license": "Apache License Version 2.0",
   "scripts": {
-    "compile": "cp ./tsconfig.json.template ./tsconfig.json && tsc"
+    "compile": "cp ./tsconfig.json.template ./tsconfig.json && tsc",
+    "start": "node index.js"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
